@@ -5,12 +5,6 @@ puts "----------"
 
 # Your code goes below here ...
 class Store < ActiveRecord::Base
-  # def initialize(name, annual_revenue, mens_apparel, womens_apparel)
-  #   @name = name 
-  #   @annual_revenue = annual_revenue
-  #   @mens_apparel = mens_apparel
-  #   @womens_apparel = womens_apparel
-  # end
 end
 
 Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: "true", womens_apparel: "true")
